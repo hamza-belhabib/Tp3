@@ -81,10 +81,10 @@ public class Main {
 
         Vehicule[] v = new Vehicule[4];
 
-        v[0] = new Voiture("A1", "Toyota", 4);
-        v[1] = new Voiture("B2", "BMW", 2);
-        v[2] = new Moto("C3", "Yamaha", true);
-        v[3] = new Camion("D4", "Volvo", 5000);
+        v[0] = new Voiture("F2", "Peugeot", 4);
+        v[1] = new Voiture("G2", "Dacia", 4);
+        v[2] = new Moto("L3", " Kawasaki", true);
+        v[3] = new Camion("H4", "Volvo", 4000);
 
         for (int i = 0; i < v.length; i++) {
             v[i].stationner();
@@ -101,7 +101,7 @@ public class Main {
             }
         }
 
- Vehicule x = new Moto("11C22", "Yamaha", true);
+  Vehicule x = new Moto("11C22", "Yamaha", true);
         
         if (x instanceof Voiture) {
             Voiture v1 = (Voiture) x;
