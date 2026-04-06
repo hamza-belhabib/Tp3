@@ -83,7 +83,7 @@ public class Main {
 
         v[0] = new Voiture("F2", "Peugeot", 4);
         v[1] = new Voiture("G2", "Dacia", 4);
-        v[2] = new Moto("L3", " Kawasaki", true);
+        v[2] = new Moto("L4", " Kawasaki", true);
         v[3] = new Camion("H4", "Volvo", 4000);
 
         for (int i = 0; i < v.length; i++) {
